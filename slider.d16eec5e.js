@@ -132,17 +132,29 @@ $('.feedback-nav').slick({
   asNavFor: '.feedback-for',
   dots: false,
   centerMode: true,
-  focusOnSelect: true // responsive: [
+  focusOnSelect: true // variableWidth:true,
+  // responsive: [
+  //   {
+  //     breakpoint: 1344,
+  //     settings: {
+  //       slidesToShow: 7,
+  //       arrows: true,
+  //       infinite:true,
+  //       centerMode: true,
+  //     }
+  //   },
   //   {
   //     breakpoint: 768,
   //     settings: {
-  //       slidesToShow: 5,
+  //       slidesToShow: 7,
+  //       arrows: true,
   //     }
   //   },
   //   {
   //     breakpoint: 320,
   //     settings: {
   //       slidesToShow: 1,
+  //       arrows: true,
   //     }
   //   }
   // ]
@@ -176,7 +188,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62697" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49801" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -1281,14 +1281,16 @@ img {
 }
 @media screen and (min-width: 768px) {
   .methods-list-item {
+    flex-basis: calc((688px - 20px)/2);
     height: 334px;
+    padding: 40px 29px 65px 29px;
   }
 }
 @media screen and (min-width: 1344px) {
   .methods-list-item {
     width: calc((100% - 3 * 20px) / 3);
     height: 396px;
-    padding: 40px 25px 25px 28px;
+    padding: 40px 18px 55px 18px;
   }
 }
 .methods-list-item:hover {
@@ -1514,14 +1516,14 @@ img {
   overflow: hidden;
   background: #ffffff;
   box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
-  margin-bottom: 20px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 @media screen and (min-width: 768px) {
   .feedback-for {
     width: 688px;
     height: 313px;
     padding: 40px;
+    margin: 0 auto 30px;
   }
 }
 @media screen and (min-width: 1344px) {
@@ -1532,7 +1534,7 @@ img {
     padding-left: 82px;
     padding-right: 112px;
     padding-bottom: 50px;
-    margin-bottom: 40px;
+    margin: 0 auto 40px;
   }
 }
 
@@ -1577,6 +1579,11 @@ img {
   margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
+  .icon-person {
+    width: 150px;
+  }
+}
+@media screen and (min-width: 1344px) {
   .icon-person {
     width: 150px;
   }
