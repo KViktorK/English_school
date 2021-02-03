@@ -128,7 +128,7 @@ if (animItems.length > 0) {
       var animItem = animItems[index];
       var animItemHeight = animItem.offsetHeight;
       var animItemOffSet = offset(animItem).top;
-      var animStart = 1;
+      var animStart = 4;
       var animItemPoint = window.innerHeight - animItemHeight / animStart;
 
       if (animItemHeight > window.innerHeight) {
@@ -187,7 +187,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54008" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54680" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
