@@ -48,6 +48,7 @@
       height: 28px;
     }
     .menu-close-btn {
+      background-color: transparent;
       outline: none;
       border: none;
       color: #ffffff;
@@ -117,6 +118,7 @@
       display: none;
     }
     .nav-menu-btn {
+      background-color: transparent;
       outline: none;
       border: none;
       color: #ffffff;
@@ -150,7 +152,7 @@
     background: rgba(17, 21, 24, 0.9);
     position: fixed;
     width: 100%;
-    height: 1024px;
+    height: 2024px;
     top: 0;
     left: 0;
     z-index: 10;
@@ -165,6 +167,7 @@
     .menu-close-btn {
       outline: none;
       border: none;
+      background-color: transparent;
       color: #ffffff;
       .svg-button {
         width: 14.5px;
@@ -228,6 +231,7 @@
     .nav-menu-btn {
       outline: none;
       border: none;
+      background-color: transparent;
       color: #ffffff;
       .svg-button {
         width: 20px;
