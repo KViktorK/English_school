@@ -39,6 +39,7 @@
     height: 800px;
     z-index: 10;
     top: 0;
+    transition: all 1s ease 0s;
 
     .menu-logo {
       display: none;
@@ -156,6 +157,7 @@
     top: 0;
     left: 0;
     z-index: 10;
+    transition: all 1s ease 0s;
 
     .menu-logo {
       display: none;
